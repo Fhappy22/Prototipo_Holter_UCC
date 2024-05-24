@@ -4,7 +4,7 @@ void setup() {
   size(400, 400);
   
   // Cargar el archivo de texto
-  String[] filePaths = { sketchPath("test.txt") }; // Cambia "datos.txt" por el nombre de tu archivo
+  String[] filePaths = { sketchPath("test.txt") };
   lines = loadStrings(filePaths[0]);
   
   // Imprimir el contenido del archivo en la consola
